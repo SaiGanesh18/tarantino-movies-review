@@ -1,0 +1,49 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+div{
+    height:2200px;
+    position:static;
+    font-family:'Source Sans Pro',sans-serif;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700;800&display=swap" rel="stylesheet">
+}
+.heading{
+    color:yellow;
+    width:1270px;
+    background-color: black;
+    font-size:50px;
+    text-transform: capitalize;
+    position:relative;
+    top:26px;
+    left:8%;
+    cursor:grabbing;
+}
+.home{
+    background:url(./pictures/home\ 2.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.end a{
+    background:black;
+    color:yellow;
+    width:380px;
+    text-transform: capitalize;
+    font-size:40px;
+    position:relative;
+    left:38%;
+    top:2000px;
+    cursor:context-menu;
+}
+.heading:hover{
+    color:red;
+}
+.end a:hover{
+    color:red;
+}

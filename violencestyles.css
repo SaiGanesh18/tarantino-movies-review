@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    position: static;
+    background:black;
+    letter-spacing: 2px;
+}
+.oneone{
+    color:yellow;
+    background:black;
+    text-align: center;
+    height:90px;
+    cursor:grabbing;
+    font-size:40px;
+}
+.oneone:hover{
+    color:red;
+}
+
+.one{
+    height:1000px;
+    position:relative;
+    top:30px;
+    background-image:url(./pictures/uma.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.two{
+    background:black;
+    height:1400px;
+}
+.twotwo{
+    position:relative;
+    top:150px;
+    word-spacing:10px;
+    color:yellow;
+    font-size: 35px;
+    width:1500px;
+}
+img{
+    float:right;
+    position: relative;
+    top:150px;
+    width:700px;
+}
+.three{
+    position:relative;
+    bottom:550px;
+    right:400px;
+}
+.last{
+    background: black;
+    position:relative;
+    bottom:350px;
+    color:yellow;
+    font-size: 30px;
+    clear:right;
+    height:200px;
+}
+
+.l{
+    background-image: url(./pictures/violenc.jpg);
+    height:1400px;
+    background-position:0 450px;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.ret a{
+    position:absolute;
+    top:30px;
+    left:40px;
+    display:inline-block;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-decoration: none;
+    color:#2196f3;
+    transition:0.2s;
+    overflow:hidden;
+    padding:15px 30px;
+    border:2px solid #2196f3;
+}
+
+.ret a:hover{
+    color:#255784;
+    background:#2196f3;
+    box-shadow:0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}

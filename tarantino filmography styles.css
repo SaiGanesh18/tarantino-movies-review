@@ -1,0 +1,559 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    letter-spacing: 2px;
+    min-height:100vh;
+    background: rgb(209, 209, 27);
+    font-family:'Source Sans Pro',sans-serif;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700;800&display=swap" rel="stylesheet">
+}
+
+.intro{
+
+    background-image: url(./pictures/poster.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:1000px;
+}
+.intro1{
+    color:rgb(160, 12, 12);
+    position:absolute;
+    top:1050px;
+    left:430px;
+    font-size: 40px;
+    border:3px solid white;
+    padding:10px;
+}
+
+.introp{
+    position:relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top:160px;
+    font-size:30px;
+    color:rgb(160, 12, 12);
+    margin:25px;
+    letter-spacing: 2px;
+    border:3px solid white;
+    padding:10px;
+}
+
+
+.one{
+    position:absolute;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    top:1950px;
+    left:550px;
+    color:rgb(160, 12, 12);
+
+}
+.onep{
+    position:absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    top:1980px;
+    color:rgb(160, 12, 12);
+    
+    margin:70px;
+}
+.card{
+    position:relative;
+    top:650px;
+    left:450px;
+    width:600px; /*300*/
+    height:400px; /*400*/
+    background: rgb(221, 221, 221);
+    overflow:hidden;
+    border: 3px solid white;
+}
+input,
+.toggle{
+    position:absolute;
+    width:50px;
+    height:50px;
+    bottom:20px;
+    right:20px;
+    outline: none;
+    z-index: 10;
+    
+}
+input{
+    opacity:0;
+}
+.toggle{
+    pointer-events: none;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    transition: 0.5s;
+    line-height:50px;
+    font-size:36px;
+    box-shadow: 0 0 0 0px rgb(218, 216, 216);
+    cursor:grabbing;
+}
+
+input:checked ~ .toggle
+{
+    box-shadow: 0 0 0 640px rgb(218, 216, 216);
+    transform:rotate(225deg);
+    
+}
+img{
+    width:600px;
+    height:400px;
+    
+}
+.imgbx,.details{
+    
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.details{
+    color:rgb(160, 12, 12);
+padding:20px;
+letter-spacing: 1px;
+box-sizing:border-box;
+z-index:11;
+pointer-events: none;
+transition:0.5s;
+opacity:0;
+}
+
+input:checked ~.details
+{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+/*two*/
+.two{
+    position:absolute;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    top:2870px;
+    left:450px;
+    color:rgb(160, 12, 12);
+
+}
+
+.twop{
+    position:absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    top:2890px;
+    margin:70px;
+    color:rgb(160, 12, 12);
+}
+
+.card2{
+    position:relative;
+    top:1170px;
+    left:450px;
+    width:600px; /*300*/
+    height:400px; /*400*/
+    background: rgb(221, 221, 221);
+    overflow:hidden;
+    border: 3px solid white;
+}
+input,
+.toggle2{
+    position:absolute;
+    width:50px;
+    height:50px;
+    bottom:20px;
+    right:20px;
+    outline: none;
+    z-index: 10;
+}
+input{
+    opacity:0;
+}
+.toggle2{
+    pointer-events: none;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    transition: 0.5s;
+    line-height:50px;
+    font-size:36px;
+    box-shadow: 0 0 0 0px rgb(218, 216, 216);
+    cursor:grabbing;
+}
+
+input:checked ~ .toggle2
+{
+    box-shadow: 0 0 0 640px rgb(218, 216, 216);
+    transform:rotate(225deg);
+    
+}
+
+.imgbx2,.details2{
+    
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.details2{
+    color:rgb(160, 12, 12);
+padding:20px;
+letter-spacing: 1px;
+box-sizing:border-box;
+z-index:11;
+pointer-events: none;
+transition:0.5s;
+opacity:0;
+}
+
+input:checked ~.details2
+{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+/*three*/
+.three{
+    position:absolute;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    top:3770px;
+    left:250px;
+    color:rgb(160, 12, 12);
+
+}
+
+.threep{
+    position:absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    top:3800px;
+    margin:70px;
+    color:rgb(160, 12, 12);
+}
+
+.card3{
+    position:relative;
+    top:1590px;
+    left:450px;
+    width:600px; /*300*/
+    height:400px; /*400*/
+    background: rgb(221, 221, 221);
+    overflow:hidden;
+    border: 3px solid white;
+}
+
+input,
+.toggle3{
+    position:absolute;
+    width:50px;
+    height:50px;
+    bottom:20px;
+    right:20px;
+    outline: none;
+    z-index: 10;
+}
+input{
+    opacity:0;
+}
+.toggle3{
+    pointer-events: none;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    transition: 0.5s;
+    line-height:50px;
+    font-size:36px;
+    box-shadow: 0 0 0 0px rgb(218, 216, 216);
+    cursor:grabbing;
+}
+
+input:checked ~ .toggle3
+{
+    box-shadow: 0 0 0 640px rgb(218, 216, 216);
+    transform:rotate(225deg);
+    
+}
+
+.imgbx3,.details3{
+    
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.details3{
+    color:rgb(160, 12, 12);
+padding:20px;
+letter-spacing: 1px;
+box-sizing:border-box;
+z-index:11;
+pointer-events: none;
+transition:0.5s;
+opacity:0;
+}
+
+input:checked ~.details3
+{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+/*four*/
+.four{
+    position:absolute;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    top:4600px;
+    left:470px;
+    color:rgb(160, 12, 12);
+
+}
+
+.fourp{
+    position:absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    top:4620px;
+    margin:70px;
+    color:rgb(160, 12, 12);
+}
+.card4{
+    position:relative;
+    top:2120px;
+    left:450px;
+    width:600px; /*300*/
+    height:400px; /*400*/
+    background: rgb(221, 221, 221);
+    overflow:hidden;
+    border: 3px solid white;
+}
+
+input,
+.toggle4{
+    position:absolute;
+    width:50px;
+    height:50px;
+    bottom:20px;
+    right:20px;
+    outline: none;
+    z-index: 10;
+}
+input{
+    opacity:0;
+}
+.toggle4{
+    pointer-events: none;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    transition: 0.5s;
+    line-height:50px;
+    font-size:36px;
+    box-shadow: 0 0 0 0px rgb(218, 216, 216);
+    cursor:grabbing;
+}
+
+input:checked ~ .toggle4
+{
+    box-shadow: 0 0 0 640px rgb(218, 216, 216);
+    transform:rotate(225deg);
+    
+}
+
+.imgbx4,.details4{
+    
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.details4{
+    color:rgb(160, 12, 12);
+padding:20px;
+letter-spacing: 1px;
+box-sizing:border-box;
+z-index:11;
+pointer-events: none;
+transition:0.5s;
+opacity:0;
+}
+
+input:checked ~.details4
+{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+/*five*/
+.five{
+    position:absolute;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    top:5550px;
+    left:470px;
+    color:rgb(160, 12, 12);
+
+}
+
+.fivep{
+    position:absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    top:5560px;
+    margin:70px;
+    color:rgb(160, 12, 12);
+}
+
+.card5{
+    position:relative;
+    top:2520px;
+    left:450px;
+    width:600px; /*300*/
+    height:400px; /*400*/
+    background: rgb(221, 221, 221);
+    overflow:hidden;
+    border: 3px solid white;
+}
+
+input,
+.toggle5{
+    position:absolute;
+    width:50px;
+    height:50px;
+    bottom:20px;
+    right:20px;
+    outline: none;
+    z-index: 10;
+}
+input{
+    opacity:0;
+}
+.toggle5{
+    pointer-events: none;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    transition: 0.5s;
+    line-height:50px;
+    font-size:36px;
+    box-shadow: 0 0 0 0px rgb(218, 216, 216);
+    cursor:grabbing;
+}
+
+input:checked ~ .toggle5
+{
+    box-shadow: 0 0 0 640px rgb(218, 216, 216);
+    transform:rotate(225deg);
+    
+}
+
+.imgbx5,.details5{
+    
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.details5{
+    color:rgb(160, 12, 12);
+padding:20px;
+letter-spacing: 1px;
+box-sizing:border-box;
+z-index:11;
+pointer-events: none;
+transition:0.5s;
+opacity:0;
+}
+
+input:checked ~.details5
+{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+
+.container{
+    position:absolute;
+    top:6370px;
+    left:428px;
+}
+/*.button{
+    font-size:25px;
+    position:relative;
+    padding:30px;
+    color:rgb(160, 12, 12);
+    font-family: poppins;
+    font-weight:400;
+    border:5px solid rgb(160, 12, 12);
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition:1.5s;
+    margin:60px;
+    text-decoration: none;
+}
+*/
+.button a{
+    text-decoration: none;
+    font-size:25px;
+    position:relative;
+    padding:30px;
+    color:rgb(160, 12, 12);
+    font-family: poppins;
+    font-weight:400;
+    border:5px solid rgb(160, 12, 12);
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition:1.5s;
+    margin:60px;
+    text-decoration: none;
+}
+.button a:hover{
+    box-shadow: 0 5px 50px 0 rgb(160, 12, 12) inset, 0 5px 50px 0 rgb(160, 12, 12);
+    text-shadow: 0 5px 50px 0 rgb(160, 12, 12) , 0 5px 50px 0 rgb(160, 12, 12);
+}
+.space{
+    position:relative;
+    top:2700px;
+    height:100px;
+}
+
+.back a{
+    position:absolute;
+    top:1058px;
+    left:40px;
+    display:inline-block;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(160, 12, 12);
+    transition:0.2s;
+    overflow:hidden;
+    padding:15px 30px;
+    border:2px solid rgb(160, 12, 12);
+}
+
+.back a:hover{
+    color:rgb(209, 209, 27);
+    background:rgb(160, 12, 12);
+    box-shadow:0 0 10px rgb(160, 12, 12), 0 0 40px rgb(160, 12, 12), 0 0 80px rgb(160, 12, 12);
+}

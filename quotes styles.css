@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:'Source Sans Pro',sans-serif;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700;800&display=swap" rel="stylesheet">
+}
+.one{
+    background-image: url(./pictures/i\ never\ went\ to\ film.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:1000px;
+}
+.two{
+    height:1000px;
+    background:rgb(206, 204, 204);
+   
+}
+.hh{
+    font-size:40px;
+    color:rgb(173,2,2);
+    background:rgb(209, 209, 24);
+    letter-spacing:2px;
+    border:3px solid white;
+    position: relative;
+    top:130px;
+    left:270px;
+    padding:30px;
+    margin:1px;
+    width:1000px;
+}
+
+.slider{
+    height:100vh;
+    width:60%;
+
+    
+}
+.m1{
+    position:relative;
+    overflow: hidden;
+    height:50vh;
+    width:60%;
+    justify-content:center;
+    align-items: center;
+}
+.m2{
+    position:relative;
+    overflow: hidden;
+    height:50vh;
+    width:60%;
+    justify-content:center;
+    align-items: center;
+}
+.m3{
+    position:relative;
+    overflow: hidden;
+    height:50vh;
+    width:60%;
+    justify-content:center;
+    align-items: center;
+}
+.m4{
+    position:relative;
+    overflow: hidden;
+    height:50vh;
+    width:60%;
+    justify-content:center;
+    align-items: center;
+}
+.m5{
+    position:relative;
+    overflow: hidden;
+    height:50vh;
+    width:60%;
+    justify-content:center;
+    align-items: center;
+}
+.m6{
+    position:relative;
+    overflow: hidden;
+    height:50vh;
+    width:60%;
+    justify-content:center;
+    align-items: center;
+}
+.m7{
+    position:relative;
+    overflow: hidden;
+    height:50vh;
+    width:60%;
+    justify-content:center;
+    align-items: center;
+}
+.m8{
+    position:relative;
+    overflow: hidden;
+    height:50vh;
+    width:60%;
+    justify-content:center;
+    align-items: center;
+}
+.images{
+    display:flex;
+    width:100%;
+}
+.images img{
+    width:100%;
+    transition:all 0.15s ease;
+}
+.images input{
+    display:none;
+}
+.dots{
+    display:flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label{
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    border:solid white 3px;
+    cursor:pointer;
+    transition:all 0.15s ease;
+    
+}
+.end{
+    
+}

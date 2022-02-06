@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    font-family:'Source Sans Pro',sans-serif;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700;800&display=swap" rel="stylesheet">
+}
+.title{
+    color:darkorange;
+    position:absolute;
+    top:11%;
+    left:23%;
+}
+
+.slider{
+    position:absolute;
+    top:15%;
+    left:23%;
+width:800px;
+height:400px;
+background:url(./pictures/tarantino/1.webp);
+margin:100px auto;
+animation: slide 20s infinite;
+border:3px solid darkorange;
+
+}
+
+@keyframes slide{
+   0%{
+        background:url(./pictures/tarantino/1.webp);
+        background-size: cover;
+        background-position: center;
+        border:3px solid darkorange;
+
+    }
+    
+    25%{
+        background: url(./pictures/tarantino/2.jpg);
+        background-size: cover;
+        background-position:0 -50px;
+        border:3px solid darkorange;
+        
+        
+    }
+    50%{
+        background: url(./pictures/tarantino/3.webp);
+        background-size: cover;
+        background-position: center;
+        border:3px solid darkorange;
+        
+    }
+    75%{
+        background: url(./pictures/tarantino/4.jpg);
+        background-size: cover;
+        background-position: center;
+        border:3px solid darkorange;
+        
+    }
+    100%{
+        background: url(./pictures/tarantino/1.webp);
+        background-size: cover;
+        background-position: center;
+        border:3px solid darkorange;
+        
+    }
+
+
+}
+
+.main{
+    position:absolute;
+    top:105%;
+    overflow:hidden;
+    padding:10px;
+    
+}
+.main1{
+    /*position:absolute;
+    left:30px;
+    */
+    border-radius:50% ;
+    border:3px solid darkorange;
+    shape-outside: circle();
+    width:500px;
+    height:500px;
+    float:left;
+    margin:10px;
+    
+}
+
+.main2{
+    /*position:absolute;
+    left:1160px;
+    */
+    border-radius:50% ;
+    
+    border:3px solid darkorange;
+    shape-outside: circle();
+    width:300px;
+    height:300px;
+    float:right;
+}
+.main3{
+    color:darkorange;
+    font-size: 25px;
+    /*position:absolute;
+    top:50%;
+    */
+    letter-spacing: 3px;
+    padding:20px;
+}
+
+.written{
+    position: absolute;
+    top: 1650px;
+    left:330px;
+}
+
+/*.endd a{
+position:absolute;
+top:1750px;
+left:550px;
+text-decoration: none;
+color:darkorange;
+font-size:30px;
+
+}
+*/
+
+.back a{
+    position:absolute;
+    top:30px;
+    left:40px;
+    display:inline-block;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-decoration: none;
+    color:#2196f3;
+    transition:0.2s;
+    overflow:hidden;
+    padding:15px 30px;
+    border:2px solid #2196f3;
+}
+
+.back a:hover{
+    color:#255784;
+    background:#2196f3;
+    box-shadow:0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}

@@ -1,0 +1,375 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background: black;
+}
+div{
+    background: black;
+    
+    font-family:'Source Sans Pro',sans-serif;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700;800&display=swap" rel="stylesheet">
+}
+span a{
+    text-decoration: none;
+    color: yellow;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+span a:hover{
+    /*border-width:2px;
+    padding:10px;
+    border-style: solid;
+    border-color: white;
+    */
+    text-decoration: underline;
+    color:red;
+}
+.topbar{
+    position:absolute;
+    height:1100px;
+    width:1520px;
+    display:block;
+    background-image: url(./pictures/tarantino.jpg);
+    background-position:-240px 75px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.one{
+    position:absolute;
+    top:30px;
+    color:white;
+    background:black;
+    width:1500px;
+    font-size:larger;
+    height:30px;
+}
+.sai{
+    color:yellow;
+    position:absolute;
+    text-decoration: underline;
+    font-size:35px;
+    top:1270px;
+    left:420px;
+    
+}
+
+
+.second{
+    background:black;
+    height:16050px;
+
+}
+.movietitleone{
+    color:yellow;
+    position:absolute;
+    text-decoration: underline;
+    font-size:35px;
+    top:1500px;
+    left:550px;
+}
+.reservoirdogs{
+    width:1040px;
+    height:400px;
+    position:absolute;
+    left:220px;
+    top:1600px;
+}
+.reservoirdogswriting{
+    color:yellow;
+    width:1200px;
+    position:absolute;
+    font-size:35px;
+    top:2100px;
+    
+    left:175px;
+    right:800px;
+    padding:50px;
+    margin:5px;
+    border:5px solid white;
+}
+
+.movietitletwo{
+    color:yellow;
+    position:absolute;
+    text-decoration: underline;
+    font-size:35px;
+    top:2900px;
+    left:550px;
+}
+
+.pulpfiction{
+    width:1180px;
+    height:500px;
+    position:absolute;
+    left:170px;
+    top:3000px;
+}
+
+.pulpfictionwriting{
+    color:yellow;
+    width:1200px;
+    position:absolute;
+    font-size:35px;
+    top:3600px;
+    
+    left:175px;
+    right:800px;
+    padding:50px;
+    margin:5px;
+    border:5px solid white;
+}
+
+.movietitlethree{
+    color:yellow;
+    position:absolute;
+    text-decoration: underline;
+    font-size:35px;
+    top:4450px;
+    left:550px;
+}
+.jackiebrown{
+    width:1180px;
+    height:500px;
+    position:absolute;
+    left:170px;
+    top:4550px;
+}
+.jackiebrownwriting{
+    color:yellow;
+    width:1200px;
+    position:absolute;
+    font-size:35px;
+    top:5100px;
+    
+    left:175px;
+    right:800px;
+    padding:50px;
+    margin:5px;
+    border:5px solid white;
+}
+.movietitlefour{
+    color:yellow;
+    position:absolute;
+    text-decoration: underline;
+    font-size:35px;
+    top:6000px;
+    left:400px;
+}
+.killbill{
+    width:1180px;
+    height:500px;
+    position:absolute;
+    left:170px;
+    top:6100px;
+}
+.killbillwriting{
+    color:yellow;
+    width:1200px;
+    position:absolute;
+    font-size:35px;
+    top:6650px;
+    
+    left:175px;
+    right:800px;
+    padding:50px;
+    margin:5px;
+    border:5px solid white;
+}
+.movietitlefive{
+    color:yellow;
+    position:absolute;
+    text-decoration: underline;
+    font-size:35px;
+    top:7500px;
+    left:600px;
+}
+.deathproof{
+    width:1180px;
+    height:500px;
+    position:absolute;
+    left:140px;
+    top:7600px;
+}
+.deathproofwriting{
+    color:yellow;
+    width:1200px;
+    position:absolute;
+    font-size:35px;
+    top:8150px;
+    
+    left:150px;
+    right:800px;
+    padding:50px;
+    margin:5px;
+    border:5px solid white;
+}
+.movietitlesix{
+    color:yellow;
+    position:absolute;
+    text-decoration: underline;
+    font-size:35px;
+    top:9100px;
+    left:510px;
+}
+.basterds{
+    width:1180px;
+    height:500px;
+    position:absolute;
+    left:150px;
+    top:9200px;
+}
+.basterdswriting{
+    color:yellow;
+    width:1200px;
+    position:absolute;
+    font-size:35px;
+    top:9750px;
+    
+    left:150px;
+    right:800px;
+    padding:50px;
+    margin:5px;
+    border:5px solid white;
+}
+
+.movietitleseven{
+    color:yellow;
+    position:absolute;
+    text-decoration: underline;
+    font-size:35px;
+    top:10500px;
+    left:510px;
+}
+.django{
+    width:1180px;
+    height:500px;
+    position:absolute;
+    left:150px;
+    top:10600px;
+}
+.djangowriting{
+    color:yellow;
+    width:1200px;
+    position:absolute;
+    font-size:35px;
+    top:11180px;
+    
+    left:150px;
+    right:800px;
+    padding:50px;
+    margin:5px;
+    border:5px solid white;
+}
+.movietitleeight{
+    color:yellow;
+    position:absolute;
+    text-decoration: underline;
+    font-size:35px;
+    top:12150px;
+    left:510px;
+}
+
+.hatefuleight{
+    width:1080px;
+    height:500px;
+    position:absolute;
+    left:200px;
+    top:12250px;
+}
+
+.hatefuleightwriting{
+    color:yellow;
+    width:1200px;
+    position:absolute;
+    font-size:35px;
+    top:12800px;
+    left:150px;
+    right:800px;
+    padding:50px;
+    margin:5px;
+    border:5px solid white;
+}
+.movietitlenine{
+    color:yellow;
+    position:absolute;
+    text-decoration: underline;
+    font-size:35px;
+    top:13700px;
+    left:450px;
+}
+.hollywood{
+    width:1080px;
+    height:500px;
+    position:absolute;
+    left:200px;
+    top:13800px;
+}
+.hollywoodwriting{
+    color:yellow;
+    width:1200px;
+    position:absolute;
+    font-size:35px;
+    top:14350px;
+    left:150px;
+    right:800px;
+    padding:50px;
+    margin:5px;
+    border:5px solid white;
+}
+.question{
+    color:yellow;
+    position:absolute;
+    text-decoration:none;
+    font-size:50px;
+    top:15500px;
+    left:270px;
+}
+.retirement{
+    position:absolute;
+    width:500px;
+    height:300px;
+    left:60%;
+    top:15800px;
+    border:5px solid white;
+    
+
+}
+.par{
+    left:80px;
+    color:yellow;
+    position:absolute;
+    width:800px;
+    font-size:30px;
+    
+    top:15750px;
+    padding:50px;
+    margin:5px;
+    border:5px solid white;
+
+}
+
+.credits{
+    color:yellow;
+    position:absolute;
+    text-decoration:none;
+    font-size:50px;
+    top:16640px;
+    left:150px;   
+    padding:140px 0;
+}
+/*.scene{
+    position:relative;
+    
+    width:1520px;
+    height:300px;
+    top: 3460px;
+}
+    */
+
+
